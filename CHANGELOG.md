@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.12.0](https://github.com/ArcReel/ArcReel/compare/v0.11.1...v0.12.0) (2026-05-01)
+
+
+### ✨ 新功能
+
+* **cost:** OpenAI 图片改为 token-based 计费 ([#448](https://github.com/ArcReel/ArcReel/issues/448)) ([5939dcf](https://github.com/ArcReel/ArcReel/commit/5939dcf80f9b7e7e889eac30e2a26218e2efac55))
+* **providers:** OpenAI 新增 GPT-5.5 与 GPT Image 2 ([#446](https://github.com/ArcReel/ArcReel/issues/446)) ([86211fe](https://github.com/ArcReel/ArcReel/commit/86211fe2d4399042324c4c51571baff77f27335a))
+
+
+### ♻️ 重构
+
+* **custom-provider:** 收敛 endpoint 元数据为运行时 catalog API ([#450](https://github.com/ArcReel/ArcReel/issues/450)) ([2858e52](https://github.com/ArcReel/ArcReel/commit/2858e52d5be5c58e5aee3a397a73bedf892c41e9)), closes [#414](https://github.com/ArcReel/ArcReel/issues/414)
+
+
+### 📚 文档
+
+* 限定 uvicorn --reload-dir 避免扫描 node_modules ([d4aa6a2](https://github.com/ArcReel/ArcReel/commit/d4aa6a2554a185a074a55cc7e6971d14c9d8c964))
+
 ## [0.11.1](https://github.com/ArcReel/ArcReel/compare/v0.11.0...v0.11.1) (2026-04-28)
 
 
