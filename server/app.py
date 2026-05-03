@@ -9,6 +9,15 @@
 node_modules / .venv / .git / .worktrees 等十几万个文件，单核 CPU 50%+。
 """
 
+import sentry_sdk
+
+sentry_sdk.init(
+    dsn="https://f5986b42e673f2930f42dd1bf10f1dba@o4511325466984448.ingest.de.sentry.io/4511325690396752",
+    traces_sample_rate=1.0,
+    send_default_pii=True,
+    environment="production",
+)
+
 import asyncio
 import logging
 import time
